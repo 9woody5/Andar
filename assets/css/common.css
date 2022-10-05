@@ -1,0 +1,25 @@
+.blind{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+.wrapper{
+    min-width: 320px;
+}
+.inner{
+    width: 100%;
+    padding: 0 16px;
+}
+body{
+    font-size: 14px;
+    line-height: 1.2em;
+    color: #1b1b1b;
+    font-family: 'gilroy', 'Noto Sans KR', sans-serif;
+}
+body a{}
+
+body.hidden{overflow: hidden;}
+body.hidden .dimmed{display: block;}

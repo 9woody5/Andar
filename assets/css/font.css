@@ -1,0 +1,42 @@
+/* 개발자도구-네트워크-글꼴(모던브라우저 woff/woff2사용 
+온라인폰트컨버터 이용 */
+
+@font-face {
+    font-family: 'gilroy';
+    src: url('../font/Gilroy-Regular.woff2') format('woff2');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'gilroy';
+    src: url('../font/Gilroy-Medium.woff2') format('woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'gilroy';
+    src: url('../font/Gilroy-SemiBold.woff2') format('woff2');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'gilroy';
+    src: url('../font/Gilroy-Bold.woff2') format('woff2');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    src: url('../font/NotoSansKR-Regular.woff') format('woff');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Noto Sans KR';
+    src: url('../font/NotoSansKR-Medium.woff') format('woff');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Noto Sans KR';
+    src: url('../font/NotoSansKR-Bold.woff') format('woff');
+    font-weight: 500;
+}
