@@ -1,5 +1,8 @@
 $(function(){
 
+  $('a[href="#"]').click(function(ignore){
+    ignore.preventDefault(); });
+
 
     ////검색영역
     $('.group-row .btn-search').click(function(e){
@@ -87,6 +90,12 @@ $(function(){
         $(this).siblings().find('ul').stop().slideDown();
     }
 
+  });
+
+  $('.btn-top').click(function(e){
+    
+    $('body, html').animate({scrollTop: 0}, 400);
+    return false;
   });
 
 
