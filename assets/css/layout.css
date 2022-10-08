@@ -31,6 +31,7 @@
 .ad-top .swiper-slide a b{
     font-weight: 700;
     color: #fff;
+    margin-left: 5px;
 }
 .ad-top .swiper-slide a::after{
     content: '';
@@ -115,7 +116,8 @@
     width: 22px;
     height: 20px;
     cursor: pointer;
-    background: url(../images/ic_menu_w.svg) no-repeat center / contain;
+    background: url(../images/ic_menu_w.svg) no-repeat center;
+    background-size: 33px 18px;
     padding: 0 10px;
 }
 .header-inner .group-row .btn-search{
@@ -139,6 +141,7 @@
     display: block;
     width: 19px;
     height: 20px;
+    margin-top: -10px;
     background: url(../images/ic_cart_w.svg) no-repeat center / contain;
 }
 .header-inner .group-row .link-mypage{
@@ -149,6 +152,7 @@
     display: block;
     width: 18px;
     height: 18px;
+    margin-top: -10px;
     background: url(../images/ic_profile_w.svg) no-repeat center / contain;
 }
 
@@ -240,7 +244,6 @@
 .menu-left .category-wrap{
     padding: 18px 0 11px;
 }
-.menu-left .category-list{ }
 .menu-left .category-item{
     position: relative;
 }
@@ -348,7 +351,6 @@
 .menu-left .others-item > ul{
     display: block;
 }
-.menu-left .others-item > ul li{}
 .menu-left .others-item > ul li a{
     font-size: 16px;
     line-height: 20px;
@@ -694,7 +696,7 @@ footer{
     display: block;
     padding-bottom: 5px;
 }
-.cs-area p .font{
+.cs-area p i{
     color: #555;
 }
 .cs-area p b{
@@ -776,7 +778,6 @@ address i{
     height: 10px;
     background: #ccc;
 }
-.inquiry-area{}
 .inquiry-area span{
     display: block;
     font-size: 11px;
@@ -804,7 +805,6 @@ footer .copy em{
 footer .logo-area{
     margin-top: 24px;
 }
-footer .logo-area ul{ }
 footer .logo-area ul li{
     display: inline-block;
     margin-right: 22px;
