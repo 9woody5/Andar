@@ -19,7 +19,6 @@ body{
     color: #1b1b1b;
     font-family: 'gilroy', 'Noto Sans KR', sans-serif;
 }
-body a{}
 
 body.hidden{overflow: hidden;}
 body.hidden .dimmed{display: block;}

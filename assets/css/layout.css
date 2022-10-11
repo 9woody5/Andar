@@ -170,7 +170,6 @@
     padding: 0 16px;
     z-index: 10000;
     transition: left 0.7s;
-    /* display: none; */
 }
 .menu-left.active{
     left: 0;
@@ -299,7 +298,6 @@
     z-index: 9000;
 }
 .menu-left .category-item .sub{
-    display: block;
     height: auto;
     padding-bottom: 15px;
     display: none;
